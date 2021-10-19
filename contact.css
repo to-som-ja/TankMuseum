@@ -1,0 +1,8 @@
+main .first{
+    background-color: red;
+}
+
+main .second div{
+    margin-left: auto;
+    margin-right: auto;
+}
