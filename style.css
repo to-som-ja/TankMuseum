@@ -21,22 +21,23 @@ body {
   background-position-y: 50%;
   background-image: url(tank_icon.png);
 }
-.cover-container {
+
+
+header.cover-container {
   max-width: 80rem;
-
 }
-
-
-/*
- * Header
- */
-
- h1{
-    font-size: 4rem;
-    padding-right: 2rem;
-    }
+footer.cover-container {
+  max-width: 80rem;
+}
+main{
+  max-width: 100rem;
+}
+h1 {
+  font-size: 4rem;
+  padding-right: 2rem;
+}
 .nav-masthead .nav-link {
-    font-size: 2rem;
+  font-size: 2rem;
   padding: 0.25rem 0.75rem;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.5);
@@ -54,17 +55,17 @@ body {
 }
 
 .nav-masthead .active {
-    color: #fff;
-    border-bottom-color: #fff;
-  }
+  color: #fff;
+  border-bottom-color: #fff;
+}
 
-  footer i.fa {
-    font-size: 3rem;
-    color: rgba(255, 255, 255, 0.5);
-  }
-  footer i.fa:hover{
-      color: #fff;
-  }
-  .footer a {
-    margin: 2rem;
-  }
+footer i.fa {
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+footer i.fa:hover {
+  color: #fff;
+}
+.footer a {
+  margin: 2rem;
+}

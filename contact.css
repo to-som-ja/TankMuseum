@@ -22,6 +22,9 @@ iframe {
   height: 400px;
   width: 400px;
 }
+main{
+  max-width: 70rem;
+}
 main i.fa{
     font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.5);
