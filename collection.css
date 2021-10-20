@@ -37,9 +37,22 @@ main {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(255, 255, 255, 0.7);
 }
-.pictures{   
-   
+.pictures figure{   
+  padding: 0.7rem;
+
 }
 .pictures img{
-  padding: 0.7rem;
+
+  height: 250px;
+  width: auto;
+}
+figcaption{
+  font-weight: 700;
+  font-size: 1em;
+}
+body.ger{
+  background-image: url(tank_icon_germany.png);
+}
+body.usa{
+  background-image: url(tank_icon_usa.png );
 }
